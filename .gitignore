@@ -1,0 +1,23 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+# .env.local # 因为一些同学总是忘记添加该文件导致本地开发编译缓慢故而取消忽略
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+package-lock.json
+yarn.lock
